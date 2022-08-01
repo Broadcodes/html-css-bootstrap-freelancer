@@ -1,11 +1,57 @@
-.gf-bg-darkBlue{
+.gf-bg-darkBlue {
     background-color: #2c3e50;
 }
 
-.gf-color-white{
+.gf-bg-white {
+    background-color: #fff;
+}
+
+.gf-bg-black {
+    background-color: #000;
+}
+
+.gf-bg-green {
+    background-color: #1abc9c;
+}
+
+.gf-color-white {
     color: #fff;
 }
 
-.gf-cursor-pointer{
+.gf-color-black {
+    color: #000;
+}
+
+.gf-link {
     cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+
+
+#avatar {
+    width: 50%;
+}
+
+.star1::after,
+.star1::before,
+.star2::after,
+.star2::before {
+    content: "";
+    width: 60px;
+    height: 4px;
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.star1::after,
+.star1::before {
+    background-color: #fff;
+}
+
+.star2::after,
+.star2::before {
+    background-color: #000;
 }
