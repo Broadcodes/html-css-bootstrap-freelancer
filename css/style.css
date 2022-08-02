@@ -27,7 +27,7 @@
 .star::before {
     content: "";
     width: 60px;
-    height: 3px;
+    height: 2.5px;
     display: inline-block;
     margin: 0 7px;
     background-color: #fff;
