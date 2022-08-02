@@ -38,7 +38,7 @@
     background-color: #000;
 }
 
-button[type="button"]:hover,
+#about button:hover,
 button[type="submit"]:hover{
     border-color: #d6e4e1;
     background-color: #60d1ba;
