@@ -6,28 +6,12 @@
     background-color: #3a546d;
 }
 
-.gf-bg-white {
-    background-color: #fff;
-}
-
-.gf-bg-black {
-    background-color: #000;
-}
-
 .gf-bg-green {
     background-color: #1abc9c;
 }
 
-.gf-color-white {
-    color: #fff;
-}
-
 .gf-color-green {
     color: #1abc9c;
-}
-
-.gf-color-black {
-    color: #000;
 }
 
 .gf-link {
@@ -35,31 +19,21 @@
     text-decoration: none;
 }
 
+#avatar{
+    max-width: 200px;
+  }
 
-
-
-
-#avatar {
-    width: 50%;
-}
-
-.star1::after,
-.star1::before,
-.star2::after,
-.star2::before {
+.star::after,
+.star::before {
     content: "";
     width: 60px;
-    height: 4px;
+    height: 3px;
     display: inline-block;
     margin: 0 7px;
-}
-
-.star1::after,
-.star1::before {
     background-color: #fff;
 }
 
-.star2::after,
-.star2::before {
+.gf-bg-dark::after,
+.gf-bg-dark::before {
     background-color: #000;
 }
