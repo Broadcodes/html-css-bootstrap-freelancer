@@ -37,3 +37,7 @@
 .gf-bg-dark::before {
     background-color: #000;
 }
+
+#contact form button:hover{
+    background-color: #60d1ba;
+}

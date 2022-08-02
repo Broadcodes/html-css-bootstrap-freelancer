@@ -26,7 +26,7 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav text-end mx-3">
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#portfolio">PORTFOLIO</a>
@@ -126,49 +126,57 @@
                         The download includes the complete source files including HTML, CSS, and JavaScript as well
                         as optional LESS stylesheets for easy customization.
                     </p>
-                    <p class="col-12 col-md-6">Whether you're a student looking to showcase your work, a professional looking to attract
-                        clients, or a graphic artist looking to share your projects, this template is the perfect starling point!
+                    <p class="col-12 col-md-6">Whether you're a student looking to showcase your work, a professional
+                        looking to attract
+                        clients, or a graphic artist looking to share your projects, this template is the perfect
+                        starling point!
                     </p>
                 </div>
                 <div class="row text-center pt-4">
                     <div class="col-12">
                         <button type="button" class="btn btn-outline-light"><i class="bi bi-download"></i>
-                        Download</button>
+                            Download</button>
                     </div>
                 </div>
-
             </div>
         </section>
 
         <!-- Area contact -->
         <section id="contact">
-            <div class="gf-bg-white">
-                <div class="container-sm text-left py-4">
-                    <div class="row gf-color-white justify-content-center">
-                        <div class="col-12 gf-color-black">
-                            <h4 class="text-center">CONTACT ME</h4>
-                        </div>
-                        <div class="col-12 d-flex justify-content-center align-items-center">
-                            <span class="star2"><i class="bi bi-star-fill fs-1 gf-color-black"></i></span>
-                        </div>
-                    </div>
-                    <div class="row py-3 px-5 gf-color-black ">
-                        <label class="py-2" for="name">Nome</label>
-                        <input type="text" name="name" id="name">
-                        <label class="py-2" for="email">Email Address</label>
-                        <input type="email" name="email" id="email">
-                        <label class="py-2" for="email">Email Address</label>
-                        <input type="email" name="email" id="email">
-                        <label class="py-2" for="phone">Phone Number</label>
-                        <input type="tel" name="phone" id="phone">
-                        <label class="py-2" for="message">Message</label>
-                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                        <div class="row py-3">
-                            <input class="w-25 btn btn-success gf-bg-green" type="submit" value="Send">
+                <div class="container-md text-left p-5">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h4 class="">CONTACT ME</h4>
+                            <span class="star gf-bg-dark">
+                                <i class="bi bi-star-fill fs-1 align-middle"></i>
+                            </span>
                         </div>
                     </div>
+
+                    <form method="post" action="#" class="mx-5">
+                        <div class="mb-2">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control border border-0 border-bottom" id="name" name="name" required>
+                        </div>
+                        <div class="mb-2">
+                            <label for="email">Email Address</label>
+                            <input name="email" type="email" class="form-control border border-0 border-bottom" id="email" required>
+                        </div>
+
+                        <div class="mb-2">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input name="phone" type="text" class="form-control border border-0 border-bottom" id="phone" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control border border-0 border-bottom" name="message" id="message" cols="60"
+                                rows="5"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn gf-bg-green text-white py-2 px-3">Send</button>
+                    </form>
                 </div>
-            </div>
         </section>
     </main>
 
